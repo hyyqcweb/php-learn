@@ -8,7 +8,7 @@
             $data[] = $row;
         }
     } else {
-        echo 1;
+        echo '这是一个空数组';
     }
 //    echo "<pre>";
 //    print_r ($data);

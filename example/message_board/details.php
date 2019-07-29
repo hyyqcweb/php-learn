@@ -15,7 +15,7 @@
         <th class="content">Content</th>
         <th>操作</th>
     </tr>
-    <?php foreach($data as $k=>$v){?>
+    <?php foreach($data as $v){?>
         <tr>
             <td><?=$v['id']?></td>
             <td><?=$v['username']?></td>
