@@ -5,7 +5,7 @@
         $username = $_POST['username'];
         $password = $_POST['password'];
         $content = $_POST['content'];
-        $sql = "insert into board (username, password, content) values ($username, $password, $content);";
+        $sql = "insert into board (username, password, content) values ('$username', '$password', '$content');";
         if ($conn -> query($sql) === true) {
             echo "数据插入成功";
         } else {
